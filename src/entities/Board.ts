@@ -19,7 +19,7 @@ export class Board {
     for (let i = 0; i < this.ROW_SIZE; i++) {
       this._cells[i] = [];
       for (let j = 0; j < this.COLUMN_SIZE; j++) {
-        this._cells[i][j] = new Cell(i, j);
+        this._cells[i][j] = new Cell();
       }
     }
   }
