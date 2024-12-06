@@ -1,4 +1,4 @@
 export enum Sign {
-  X,
-  O
+  X = 'X',
+  O = 'O'
 }
